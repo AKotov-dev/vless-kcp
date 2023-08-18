@@ -5,3 +5,7 @@
 + Copy the connection string from `vless-kcp-gen` and paste it into [XRayGUI](https://github.com/AKotov-dev/XRayGUI); Press `Start`
 + Enable the Socks5 proxy - `127.0.0.1:1080` in the browser on your computer
 + This completes the configuration of the secure connection
+
+...
+
+Similar project: [SS-Obfuscator](https://github.com/AKotov-dev/SS-Obfuscator), [trojan-srv](https://github.com/AKotov-dev/trojan-srv), [vmess-ws](https://github.com/AKotov-dev/vmess-ws)
