@@ -1,0 +1,76 @@
+[NAME]
+name=vless-kcp
+
+[VERSION]
+version=0.1
+
+[RELEASE]
+release=0.mrx9
+
+[GROUP]
+group=Applications/Internet
+
+[DESCRIPTION]
+0=vless-kcp - XRay Personal Security Server
+1=---
+2=More information: /usr/share/doc/package_name/repack.txt
+
+[MAINTAINER]
+maintainer=Alex Kotov
+
+[VENDOR]
+vendor=alex_q_2000 (C) 2022
+
+[SUMMARY]
+summary=vless-kcp - XRay Personal Security Server
+
+[URLCOPY]
+urlcopy=https://github.com/AKotov-dev/vless-kcp
+
+[LICENSE]
+license=GPLv3
+
+[DEPS]
+deps=systemd
+
+[META]
+meta=0
+
+[NOARCH]
+noarch=0
+
+[DEB]
+deb=1
+
+[FILES]
+0=/etc/vless-kcp/geoip.dat
+1=/etc/vless-kcp/geosite.dat
+2=/etc/vless-kcp/LICENSE
+3=/etc/vless-kcp/README.md
+4=/etc/vless-kcp/xray
+5=/usr/share/doc/vless-kcp/
+6=/etc/systemd/system/vless-kcp.service
+
+[AFTERINSTALL]
+0=#!/bin/bash
+1=
+2=systemctl daemon-reload
+3=systemctl enable vless-kcp.service
+
+[URL32]
+url32=https://github.com/AKotov-dev/vless-kcp
+
+[PROGRAMNAME]
+programname=vless-kcp
+
+[DEVTOOL]
+devtool=Shell
+
+[TOOLVERSION]
+toolversion=unknown
+
+[INFO]
+0=vless-kcp - XRay Personal Security Server (rpm/deb)
+1=---
+2=
+3=v0.1 - Initial release
