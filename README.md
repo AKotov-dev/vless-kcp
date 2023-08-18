@@ -8,6 +8,6 @@
 
 ![](https://github.com/AKotov-dev/vless-kcp/blob/main/Screenshot1.png)
 
-**Note:** Don't forget to open the ports in `iptables`.
+**Note:** Don't forget to open the ports in `iptables`. Already tested on real VPS.
 
 Similar projects: [SS-Obfuscator](https://github.com/AKotov-dev/SS-Obfuscator), [trojan-srv](https://github.com/AKotov-dev/trojan-srv), [vmess-ws](https://github.com/AKotov-dev/vmess-ws).
