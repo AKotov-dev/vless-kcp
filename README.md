@@ -8,4 +8,6 @@
 
 ![](https://github.com/AKotov-dev/vless-kcp/blob/main/Screenshot1.png)
 
+**Note:** Tested in Mageia-8/9, Fedora-36 and Ubuntu-22.04. Don't forget to open the ports in `iptables`.
+
 Similar project: [SS-Obfuscator](https://github.com/AKotov-dev/SS-Obfuscator), [trojan-srv](https://github.com/AKotov-dev/trojan-srv), [vmess-ws](https://github.com/AKotov-dev/vmess-ws)
