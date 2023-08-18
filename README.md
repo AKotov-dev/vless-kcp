@@ -6,6 +6,6 @@
 + Enable the Socks5 proxy - `127.0.0.1:1080` in the browser on your computer
 + This completes the configuration of the secure connection
 
-...
+![](https://github.com/AKotov-dev/vless-kcp/blob/main/Screenshot1.png)
 
 Similar project: [SS-Obfuscator](https://github.com/AKotov-dev/SS-Obfuscator), [trojan-srv](https://github.com/AKotov-dev/trojan-srv), [vmess-ws](https://github.com/AKotov-dev/vmess-ws)
